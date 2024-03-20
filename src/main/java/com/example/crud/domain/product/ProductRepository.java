@@ -2,4 +2,8 @@ package com.example.crud.domain.product;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface ProductRepository extends JpaRepository<Product, String> {}
+import java.util.List;
+import java.util.UUID;
+
+public interface ProductRepository extends JpaRepository<Product, String> {
+}
